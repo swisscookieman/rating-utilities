@@ -1,0 +1,856 @@
+{
+  "teams": {
+    "bbl": {
+      "rating": 1006.2,
+      "matches": [
+        {
+          "opponent": "gx",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T09:57:39.358426"
+        },
+        {
+          "opponent": "fnc",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T09:59:16.679291"
+        },
+        {
+          "opponent": "th",
+          "opponent_rating": 1039.6,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:02:39.684515"
+        }
+      ]
+    },
+    "gx": {
+      "rating": 951.3,
+      "matches": [
+        {
+          "opponent": "bbl",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T09:57:39.358661"
+        },
+        {
+          "opponent": "kc",
+          "opponent_rating": 988.7,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:01:20.642445"
+        },
+        {
+          "opponent": "tl",
+          "opponent_rating": 1010.6,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:03:24.580268"
+        }
+      ]
+    },
+    "kc": {
+      "rating": 951.1,
+      "matches": [
+        {
+          "opponent": "navi",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T09:57:59.177336"
+        },
+        {
+          "opponent": "vit",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T09:59:38.554419"
+        },
+        {
+          "opponent": "gx",
+          "opponent_rating": 964.8,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:01:20.642403"
+        }
+      ]
+    },
+    "navi": {
+      "rating": 929.9,
+      "matches": [
+        {
+          "opponent": "kc",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T09:57:59.177386"
+        },
+        {
+          "opponent": "fnc",
+          "opponent_rating": 968.3,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:01:28.948226"
+        }
+      ]
+    },
+    "tl": {
+      "rating": 1061.8,
+      "matches": [
+        {
+          "opponent": "koi",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T09:58:10.792442"
+        },
+        {
+          "opponent": "fut",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:00:00.815768"
+        },
+        {
+          "opponent": "apk",
+          "opponent_rating": 956.3,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:01:50.379468"
+        },
+        {
+          "opponent": "gx",
+          "opponent_rating": 1002.4,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:03:24.580337"
+        }
+      ]
+    },
+    "koi": {
+      "rating": 932.7,
+      "matches": [
+        {
+          "opponent": "tl",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T09:58:10.792485"
+        },
+        {
+          "opponent": "m8",
+          "opponent_rating": 996.1,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:02:01.138726"
+        }
+      ]
+    },
+    "apk": {
+      "rating": 923.3,
+      "matches": [
+        {
+          "opponent": "m8",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T09:58:25.394209"
+        },
+        {
+          "opponent": "tl",
+          "opponent_rating": 977.5,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:01:50.379499"
+        }
+      ]
+    },
+    "m8": {
+      "rating": 972.0,
+      "matches": [
+        {
+          "opponent": "apk",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T09:58:25.394234"
+        },
+        {
+          "opponent": "th",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:00:21.578559"
+        },
+        {
+          "opponent": "koi",
+          "opponent_rating": 964.8,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:02:01.138670"
+        },
+        {
+          "opponent": "fnc",
+          "opponent_rating": 1003.2,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:02:49.792360"
+        }
+      ]
+    },
+    "fnc": {
+      "rating": 1059.3,
+      "matches": [
+        {
+          "opponent": "bbl",
+          "opponent_rating": 1035.2,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T09:59:16.679341"
+        },
+        {
+          "opponent": "navi",
+          "opponent_rating": 964.8,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:01:28.948186"
+        },
+        {
+          "opponent": "m8",
+          "opponent_rating": 1028.2,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:02:49.792405"
+        }
+      ]
+    },
+    "vit": {
+      "rating": 1092.6,
+      "matches": [
+        {
+          "opponent": "kc",
+          "opponent_rating": 1035.2,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T09:59:38.554361"
+        },
+        {
+          "opponent": "fut",
+          "opponent_rating": 1048.1,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:02:19.227168"
+        }
+      ]
+    },
+    "fut": {
+      "rating": 994.3,
+      "matches": [
+        {
+          "opponent": "tl",
+          "opponent_rating": 1035.2,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:00:00.815724"
+        },
+        {
+          "opponent": "vit",
+          "opponent_rating": 1038.8,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:02:19.227117"
+        }
+      ]
+    },
+    "th": {
+      "rating": 1097.1,
+      "matches": [
+        {
+          "opponent": "m8",
+          "opponent_rating": 1043.7,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:00:21.578512"
+        },
+        {
+          "opponent": "bbl",
+          "opponent_rating": 1073.2,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T10:02:39.684610"
+        }
+      ]
+    },
+    "eg": {
+      "rating": 1003.6,
+      "matches": [
+        {
+          "opponent": "loud",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:05:52.148305"
+        },
+        {
+          "opponent": "fur",
+          "opponent_rating": 984.7,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:09:14.773900"
+        }
+      ]
+    },
+    "loud": {
+      "rating": 1089.5,
+      "matches": [
+        {
+          "opponent": "eg",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:05:52.148542"
+        },
+        {
+          "opponent": "kru",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:08:03.692042"
+        }
+      ]
+    },
+    "mibr": {
+      "rating": 994.4,
+      "matches": [
+        {
+          "opponent": "100t",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:06:32.184838"
+        },
+        {
+          "opponent": "c9",
+          "opponent_rating": 984.7,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:10:19.663964"
+        }
+      ]
+    },
+    "100t": {
+      "rating": 956.9,
+      "matches": [
+        {
+          "opponent": "mibr",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:06:32.184881"
+        },
+        {
+          "opponent": "sen",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:08:21.173397"
+        },
+        {
+          "opponent": "nrg",
+          "opponent_rating": 956.3,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:10:32.743464"
+        }
+      ]
+    },
+    "fur": {
+      "rating": 937.5,
+      "matches": [
+        {
+          "opponent": "2g",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:07:29.025384"
+        },
+        {
+          "opponent": "lev",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:08:59.544116"
+        },
+        {
+          "opponent": "eg",
+          "opponent_rating": 956.3,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:09:14.773785"
+        }
+      ]
+    },
+    "2g": {
+      "rating": 913.4,
+      "matches": [
+        {
+          "opponent": "fur",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:07:29.025488"
+        },
+        {
+          "opponent": "kru",
+          "opponent_rating": 961.8,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:09:25.811374"
+        }
+      ]
+    },
+    "nrg": {
+      "rating": 995.6,
+      "matches": [
+        {
+          "opponent": "c9",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:07:49.636992"
+        },
+        {
+          "opponent": "100t",
+          "opponent_rating": 996.1,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:10:32.743507"
+        }
+      ]
+    },
+    "c9": {
+      "rating": 946.6,
+      "matches": [
+        {
+          "opponent": "nrg",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:07:49.637044"
+        },
+        {
+          "opponent": "g2",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:08:50.988852"
+        },
+        {
+          "opponent": "mibr",
+          "opponent_rating": 956.3,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:10:19.663869"
+        }
+      ]
+    },
+    "kru": {
+      "rating": 1004.8,
+      "matches": [
+        {
+          "opponent": "loud",
+          "opponent_rating": 1043.7,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:08:03.691999"
+        },
+        {
+          "opponent": "2g",
+          "opponent_rating": 956.3,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:09:25.811316"
+        }
+      ]
+    },
+    "sen": {
+      "rating": 1039.6,
+      "matches": [
+        {
+          "opponent": "100t",
+          "opponent_rating": 1043.7,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:08:21.173278"
+        }
+      ]
+    },
+    "g2": {
+      "rating": 1049.1,
+      "matches": [
+        {
+          "opponent": "c9",
+          "opponent_rating": 1043.7,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:08:50.988811"
+        }
+      ]
+    },
+    "lev": {
+      "rating": 1049.1,
+      "matches": [
+        {
+          "opponent": "fur",
+          "opponent_rating": 1043.7,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:08:59.544070"
+        }
+      ]
+    },
+    "boom": {
+      "rating": 932.7,
+      "matches": [
+        {
+          "opponent": "t1",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:13:46.634394"
+        },
+        {
+          "opponent": "ns",
+          "opponent_rating": 996.1,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:15:46.862620"
+        }
+      ]
+    },
+    "t1": {
+      "rating": 1117.6,
+      "matches": [
+        {
+          "opponent": "boom",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:13:46.634458"
+        },
+        {
+          "opponent": "prx",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:14:41.591370"
+        },
+        {
+          "opponent": "tln",
+          "opponent_rating": 1038.8,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:17:21.286127"
+        }
+      ]
+    },
+    "ge": {
+      "rating": 942.0,
+      "matches": [
+        {
+          "opponent": "ts",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:13:59.288022"
+        },
+        {
+          "opponent": "tln",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:15:04.326801"
+        },
+        {
+          "opponent": "dfm",
+          "opponent_rating": 964.8,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:16:40.396444"
+        }
+      ]
+    },
+    "ts": {
+      "rating": 932.0,
+      "matches": [
+        {
+          "opponent": "ge",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:13:59.288078"
+        },
+        {
+          "opponent": "rrq",
+          "opponent_rating": 988.7,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:16:15.265981"
+        }
+      ]
+    },
+    "dfm": {
+      "rating": 1011.4,
+      "matches": [
+        {
+          "opponent": "rrq",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:14:11.412710"
+        },
+        {
+          "opponent": "ge",
+          "opponent_rating": 988.7,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:16:40.396547"
+        }
+      ]
+    },
+    "rrq": {
+      "rating": 1021.5,
+      "matches": [
+        {
+          "opponent": "dfm",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:14:11.412752"
+        },
+        {
+          "opponent": "geng",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:15:26.775169"
+        },
+        {
+          "opponent": "ts",
+          "opponent_rating": 964.8,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:16:15.265855"
+        }
+      ]
+    },
+    "zeta": {
+      "rating": 914.2,
+      "matches": [
+        {
+          "opponent": "ns",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:14:23.816946"
+        },
+        {
+          "opponent": "prx",
+          "opponent_rating": 968.3,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:16:51.678966"
+        }
+      ]
+    },
+    "ns": {
+      "rating": 1028.2,
+      "matches": [
+        {
+          "opponent": "zeta",
+          "opponent_rating": 1000.0,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:14:23.816984"
+        },
+        {
+          "opponent": "drx",
+          "opponent_rating": 1000.0,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:15:36.033827"
+        },
+        {
+          "opponent": "boom",
+          "opponent_rating": 964.8,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:15:46.862582"
+        }
+      ]
+    },
+    "prx": {
+      "rating": 1010.5,
+      "matches": [
+        {
+          "opponent": "t1",
+          "opponent_rating": 1035.2,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:14:41.591321"
+        },
+        {
+          "opponent": "zeta",
+          "opponent_rating": 956.3,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:16:51.678917"
+        }
+      ]
+    },
+    "tln": {
+      "rating": 1000.7,
+      "matches": [
+        {
+          "opponent": "ge",
+          "opponent_rating": 1035.2,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:15:04.325906"
+        },
+        {
+          "opponent": "t1",
+          "opponent_rating": 1073.2,
+          "result": 0,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:17:21.286175"
+        }
+      ]
+    },
+    "geng": {
+      "rating": 986.5,
+      "matches": [
+        {
+          "opponent": "rrq",
+          "opponent_rating": 1035.2,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:15:26.775113"
+        },
+        {
+          "opponent": "drx",
+          "opponent_rating": 1039.6,
+          "result": 0,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:17:36.665219"
+        }
+      ]
+    },
+    "drx": {
+      "rating": 1091.9,
+      "matches": [
+        {
+          "opponent": "ns",
+          "opponent_rating": 1043.7,
+          "result": 1,
+          "margin": 1,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:15:36.033781"
+        },
+        {
+          "opponent": "geng",
+          "opponent_rating": 1038.8,
+          "result": 1,
+          "margin": 2,
+          "event_weight": 1.3,
+          "date": "2025-01-31T14:17:36.665243"
+        }
+      ]
+    }
+  }
+}
