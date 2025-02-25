@@ -32,8 +32,6 @@ def process_file(input_file, output_file):
     
     weighted_sum = (new_df[rating_columns] * pd.Series(weights)).sum(axis=1)
     new_df['rating'] = (weighted_sum / total_weight).round(3)
-
-    # Move rating column to 3rd position
     cols = new_df.columns.tolist()
     cols = cols[:2] + ['rating'] + [c for c in cols[2:] if c != 'rating']
     new_df = new_df[cols]
