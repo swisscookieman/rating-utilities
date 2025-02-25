@@ -149,7 +149,7 @@ def main():
     print("Data successfully saved to", DATA_FILE)
 
 def show_rankings():
-    """Displays all teams sorted by their current rating"""
+    """Displays all teams sorted by their current rating yeah yeha """
     data = load_data()
     teams = data['teams']
     
