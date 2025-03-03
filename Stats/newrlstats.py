@@ -57,5 +57,5 @@ def process_file(input_file, output_file):
     with open(output_file, 'w') as wr:
         wr.writelines(lines)
 if True:
-    filename = "Stats/APACregional-3-o3ak34j743-players.csv"
+    filename = "Stats/north-america-dxx4sk6tc3-players.csv"
     process_file(filename, "Stats/processed-"+filename[6:])
