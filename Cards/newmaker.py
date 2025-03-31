@@ -1,13 +1,8 @@
 from PIL import Image, ImageDraw, ImageFont
 import colorsys
 import csv
+import os
 # Open the image
-image = Image.open("Cards/car2d3.png")
-
-# Create a drawing context
-draw = ImageDraw.Draw(image)
-
-
 def color(number):
     # Clamp input between 0.60 and 1.40
     n = max(0.60, min(number, 1.40))
@@ -410,7 +405,6 @@ def get_player_stats(player_name):
         # Search for the player
         for row in reader:
             if row[1].lower() == player_name.lower():
-                print(row)
                 # Convert all values to float and return stats (excluding team name and player name)
                 return [float(value) for value in row[2:]]
         
@@ -650,29 +644,32 @@ def wor(value):
     wor_text_box(image,f"{value:.2f}")
 # Rating, r rGPG, GPG, rAss, Ass, rSaves, Saves, rShots, Shots, rShooting, Shooting% 
 
-
-playerstats = get_player_stats("Vatira.")
-print("INITIAL")
-
-print(playerstats)
-card_rating(image,str(playerstats[0]))
-playerstats.pop(0)
-playerstats.pop(1)
-playerstats.pop(1)
-print("REMOVE WR")
-print(playerstats)
-score(playerstats[1], playerstats[2])
-Rating(playerstats[0])
-playerstats.pop(1)
-playerstats.pop(1)
-print("REMOVE SCORE")
-print(playerstats)
-Goals(playerstats[1], playerstats[2])
-assists(playerstats[3], playerstats[4])
-saves(playerstats[5], playerstats[6])
-shots(playerstats[7], playerstats[8])
-shooting(playerstats[9], playerstats[10])
-demos(playerstats[11],playerstats[12])
-wor(playerstats[13])
-image.save("Cards/output.png")
-print("Image saved as output.png")
+with open('Cards/major1.csv', 'r', newline='') as file:
+    reader = csv.reader(file)
+    header = next(reader)  # Explicitly store and ignore the first row
+    
+    for row in reader:
+        player_name = row[1]  # Assuming second column
+        playerstats = get_player_stats(player_name)
+        if os.path.exists(f"Cards/major1/{player_name}.png"):
+            image = Image.open(f"Cards/major1/{player_name}.png")
+            draw = ImageDraw.Draw(image)
+            card_rating(image,str(playerstats[0]))
+            playerstats.pop(0)
+            playerstats.pop(1)
+            playerstats.pop(1)
+            score(playerstats[1], playerstats[2])
+            Rating(playerstats[0])
+            playerstats.pop(1)
+            playerstats.pop(1)
+            Goals(playerstats[1], playerstats[2])
+            assists(playerstats[3], playerstats[4])
+            saves(playerstats[5], playerstats[6])
+            shots(playerstats[7], playerstats[8])
+            shooting(playerstats[9], playerstats[10])
+            demos(playerstats[11],playerstats[12])
+            wor(playerstats[13])
+            image.save(f"Cards/major1output/{player_name}.png")
+            print(f"Done{player_name}")
+        else: 
+            print(f"Card with name {player_name} doens't exist")
