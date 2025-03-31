@@ -401,7 +401,7 @@ def shooting(rating, value):
 
 def get_player_stats(player_name):
     # Open the CSV file and read its contents
-    with open('Stats/eu_open_2_bis.csv', 'r', newline='') as csvfile:
+    with open('Stats/processed-major1.csv', 'r', newline='') as csvfile:
         reader = csv.reader(csvfile)
         
         # Skip the header row
@@ -538,7 +538,7 @@ def demos(rating, value):
     demos_text_box(image,f"{value:.2f}")
     
 # Rating, r rGPG, GPG, rAss, Ass, rSaves, Saves, rShots, Shots, rShooting, Shooting% 
-playerstats = get_player_stats("Seikoo")
+playerstats = get_player_stats("Vatira.")
 print("INITIAL")
 print(playerstats)
 playerstats.pop(1)
