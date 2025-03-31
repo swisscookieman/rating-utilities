@@ -673,3 +673,6 @@ with open('Cards/major1.csv', 'r', newline='') as file:
             print(f"Done{player_name}")
         else: 
             print(f"Card with name {player_name} doens't exist")
+
+# CARD RATING IS (rating/bestrating)*50+50
+# wor is (rating-1)*14+(rscore-1)*6
