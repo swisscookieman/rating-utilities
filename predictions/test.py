@@ -70,7 +70,7 @@ def simulate_league(
 def plot_finish_probs(df: pd.DataFrame, title: str | None = None) -> None:
     n_rows, n_cols = df.shape
     fig, ax = plt.subplots(figsize=(0.65 * n_cols, 0.45 * n_rows))
-    im = ax.imshow(df.values, aspect="auto")
+    im = ax.imshow(df.values, aspect="auto", cmap="Reds", vmin=0, vmax=0.70)
 
     # axis layout
     ax.set_xticks(range(n_cols), df.columns)
@@ -102,9 +102,19 @@ def plot_finish_probs(df: pd.DataFrame, title: str | None = None) -> None:
 # --------------------------------------------------------------------------- #
 if __name__ == "__main__":
     # toy data – replace with the real thing
-    teams   = ["Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Gogo", "Henry", "Italy", "Jones", "Klondike", "London", "Money", "Never", "Ovni", "Paris"]
-    ratings = [1600, 1550, 1500, 1450, 1400, 1350, 1200, 1110, 1100, 1090, 1040, 1020, 1000, 990, 980, 960]        # Elo style
-    today = [71, 35, 28, 28, 20, 16, 9,8,5,5,3,2,2,2,1,1]               # current standings
+    teams = [
+    "Karmine Corp", "Team Vitality", "Ninjas in Pyjamas", "Dignitas", "Geekay Esports",
+    "Gentle Mates Alpine", "100%", "Team BDS", "Synergy", "Dopamine",
+    "Smokey Bacon Association", "F4WD", "JJROX", "PICKUP FC", "Tokyo Tigers", "Cloud eSport"
+    ]
+
+    ratings = [
+        2139, 1980, 1932, 1909, 1892,
+        1840, 1817, 1750, 1743, 1706,
+        1704, 1699, 1642, 1587, 1582, 1576
+    ]
+
+    today = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]               # current standings
 
     # three events left in the season
     pts_scheme = [18, 12, 8, 8, 6, 6, 4, 4, 2, 2, 2, 2, 1, 1, 1, 1]                    # customise as needed

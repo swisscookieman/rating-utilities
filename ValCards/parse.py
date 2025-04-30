@@ -60,7 +60,7 @@ def parse_player_stats(url, target_player):
 
 if __name__ == "__main__":
     url = "https://www.vlr.gg/event/stats/2380/champions-tour-2025-emea-stage-1"
-    player = "xeus"
+    player = "MiniBoo"
     stats = parse_player_stats(url, player)
     if stats:
         print(f"Player Stats for {player}:", stats)
